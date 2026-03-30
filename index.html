@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body { margin: 0; }
+    </style>
+  </head>
+  <script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+  }
+}
+
+</script>
+
+
+  <body>
+
+<section>
+  <div id="main" style="display: grid;grid-template-columns: 70vw 30vw;height: 100vh;">
+
+    <div id="three-container" style="align-items: center;min-height: 100%;">
+
+    </div>
+    <div>
+     <button id="btn1">Cigar</button>
+                                        <button id="btn2">Cigar</button>
+                    <button id="btn3">Cigar</button>
+                    <button id="btn4">Cigar</button>
+                    <button id="btn5">Cigar</button>
+    </div>
+  </div>
+</section>
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
